@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi Portafolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <link rel="stylesheet" href="iconos/">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo">&lt;/&gt;Apoteótico</h1>
+            <!-- El logo -->
+        </div>
+
+        <button class="hamburger">&#9776;</button>
+
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Habilidades</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Apoteotico</h1>
+            <h3>Software Developer</h3>
+            <p class="descripcion">Hola, mi nombre es Apoteotico y soy un apasionado de la programación web. Actualmente estoy buscando una oportunidad laboral que me permita aprender y crecer como desarrollador.</p>
+            <p class="descripcion">Tengo experiencia en HTML, CSS y JavaScript, y estoy interesado en aprender React, TypeScript y cualquier otra tecnología que necesite para trabajar.</p>
+            <p class="descripcion">Mi objetivo es encontrar un trabajo que me permita financiar mis estudios, mientras desarrollo mis habilidades en programación y contribuyo en proyectos interesantes y desafiantes.</p>
+            <p class="descripcion">Si está buscando a alguien con entusiasmo y ganas de aprender, no dude en ponerse en contacto conmigo. ¡Estoy listo para trabajar y aprender junto a su equipo!</p>
+            <a href="#proyectos" class="boton">Mis proyectos</a>
+        </section>
+
+        <section id="proyectos">
+            <h2>Mis proyectos</h2>
+            <div class="proyecto">
+                <h3>Rg Library</h3>
+                <img src="iconos/image.png" alt="Proyecto 1 RgLibrary" />
+                <figcaption class="figcap"><em>Libreria de juegos, emuladores, roms, páginas de interes y más</em></figcaption>
+                <p>Trabajo realizado con: <em>html, Css, Bootstrap.</em></p>
+                <a href="https://rglibrary.netlify.app/" target="_blank" class="boton">Ver proyecto</a>
+            </div>
+
+            <!--             
+            <div class="proyecto">
+                <img src="proyecto2.png" alt="Proyecto 2" />
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto.</p>
+                <a href="#" class="boton">Ver proyecto</a>
+            </div> 
+            -->
+
+            <!-- Agrega más proyectos aquí -->
+            <a href="#inicio" class="boton">Regresar arriba</a>
+        </section>
+
+        <section id="habilidades">
+            <h2>Mis habilidades</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Bootstrap</li>
+                <!-- Agrega más habilidades aquí -->
+            </ul>
+            <a href="#inicio" class="boton">Regresar arriba</a>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="redes-sociales">
+                <a href="https://www.facebook.com/" target="_blank"><img src="iconos/facebook-24.png"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="iconos/twitter-logo-24.png"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="iconos/instagram-alt-logo-24.png"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="iconos/linkedin-square-logo-24.png"></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Apoteotico. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="animaciones.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
