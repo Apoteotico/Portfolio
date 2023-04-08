@@ -35,13 +35,19 @@ header {
     font-weight: bold;
 }
 
+button {
+    order: 1;
+}
+
 .logo {
+    order: 2;
     font-family: Arial, sans-serif;
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
     color: #ffffff;
     text-shadow: 3px 3px #333333, 5px 5px #666666;
+    justify-content: flex-end;
     position: absolute;
     top: 0;
     right: 0;
@@ -294,9 +300,9 @@ section {
 
 /* Responsive */
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     header {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
     #logo {
@@ -316,8 +322,7 @@ section {
         font-size: 14px;
     }
     header {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
     }
     nav {
         margin-top: 10px;
@@ -325,8 +330,7 @@ section {
     }
     nav ul {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
     }
     nav li {
         margin-bottom: 5px;
