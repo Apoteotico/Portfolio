@@ -1,6 +1,10 @@
-const hamburger = document.querySelector('.hamburger');
-const nav = document.querySelector('nav');
+const nav = document.querySelector("#nav");
+const abrir = document.querySelector("#abrir");
+const cerrar = document.querySelector("#cerrar");
 
-hamburger.addEventListener('click', () => {
-    nav.classList.toggle('show');
+abrir.addEventListener('click', () => {
+    nav.classList.add("visible");
+});
+cerrar.addEventListener('click', () => {
+    nav.classList.remove("visible");
 });
