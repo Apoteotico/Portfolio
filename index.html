@@ -12,7 +12,7 @@
     <header>
 
         <!-- El logo (puede ser imagen o texto) -->
-        <div class="logo">
+        <div class="logo aparicion">
             <h1 class="logo">&lt;/&gt;Apoteótico</h1>
         </div>
 
@@ -23,43 +23,50 @@
         <nav class="nav" id="nav">
             <button class="cerrar-menu" id="cerrar">&#9776;</button>
             <ul class="nav-list">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="inicio">
-            <h1>Apoteotico</h1>
-            <h3>Software Developer</h3>
-            <p class="descripcion">Hola, mi nombre es Apoteotico y soy un apasionado de la programación web. Actualmente estoy buscando una oportunidad laboral que me permita aprender y crecer como desarrollador.</p>
-            <p class="descripcion">Tengo experiencia en HTML, CSS y JavaScript, y estoy interesado en aprender React, TypeScript y cualquier otra tecnología que necesite para trabajar.</p>
-            <p class="descripcion">Mi objetivo es encontrar un trabajo que me permita financiar mis estudios, mientras desarrollo mis habilidades en programación y contribuyo en proyectos interesantes y desafiantes.</p>
-            <p class="descripcion">Si está buscando a alguien con entusiasmo y ganas de aprender, no dude en ponerse en contacto conmigo. ¡Estoy listo para trabajar y aprender junto a su equipo!</p>
-            <a href="#proyectos" class="boton">Mis proyectos</a>
+            <h1 class="desplazar">Software Developer</h1>
+            <h3></h3>
+            <p class="descripcion desplazar">Hola, mi nombre es Apoteotico y soy un apasionado de la programación web. Actualmente estoy buscando una oportunidad laboral que me permita aprender y crecer como desarrollador.</p>
+            <p class="descripcion desplazar">Tengo experiencia en HTML, CSS y JavaScript, y estoy interesado en aprender React, TypeScript y cualquier otra tecnología que necesite para trabajar.</p>
+            <p class="descripcion desplazar">Mi objetivo es encontrar un trabajo que me permita financiar mis estudios, mientras desarrollo mis habilidades en programación y contribuyo en proyectos interesantes y desafiantes.</p>
+            <p class="descripcion desplazar">Si está buscando a alguien con entusiasmo y ganas de aprender, no dude en ponerse en contacto conmigo. ¡Estoy listo para trabajar y aprender junto a su equipo!</p>
+            <a href="#proyectos" class="boton desplazar">Mis proyectos</a>
         </section>
 
         <section id="proyectos">
             <h2>Mis proyectos</h2>
             <div class="proyecto">
-                <h3>Rg Library</h3>
-                <img src="iconos/image.png" alt="Proyecto 1 RgLibrary" />
-                <figcaption class="figcap"><em>Libreria de juegos, emuladores, roms, páginas de interes y más</em></figcaption>
+                <h3 class="zoom">Rg Library</h3>
+                <img src="iconos/image.png" alt="Proyecto 1 RgLibrary" class="zoom" />
+                <figcaption class="figcap zoom"><em>Libreria de juegos, emuladores, roms, páginas de interes y más</em></figcaption>
                 <p>Trabajo realizado con: <em>html, Css, Bootstrap.</em></p>
                 <a href="https://rglibrary.netlify.app/" target="_blank" class="boton">Ver proyecto</a>
             </div>
 
-            <!--             
+
             <div class="proyecto">
                 <img src="proyecto2.png" alt="Proyecto 2" />
-                <h3>Proyecto 2</h3>
-                <p>Descripción breve del proyecto.</p>
+                <h3>Reloj pomodoro (proximamente)</h3>
+                <p>un reloj para mejorar la productividad en el estudio y/o trabajo</p>
                 <a href="#" class="boton">Ver proyecto</a>
-            </div> 
-            -->
+            </div>
+
+            <div class="proyecto">
+                <img src="proyecto2.png" alt="Proyecto 2" />
+                <h3>proyecto con API (proximamente)</h3>
+                <p>practica de consumo de APIs simple clima, pokemon, criptomonedas, etc.</p>
+                <a href="#" class="boton">Ver proyecto</a>
+            </div>
+
 
             <!-- Agrega más proyectos aquí -->
             <a href="#inicio" class="boton">Regresar arriba</a>
@@ -68,17 +75,17 @@
         <section id="habilidades">
             <h2>Mis habilidades</h2>
             <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>jQuery</li>
-                <li>Bootstrap</li>
+                <li class="zoom">HTML5</li>
+                <li class="zoom">CSS3</li>
+                <li class="zoom">JavaScript</li>
+                <li class="zoom">jQuery</li>
+                <li class="zoom">Bootstrap</li>
                 <!-- Agrega más habilidades aquí -->
             </ul>
             <a href="#inicio" class="boton">Regresar arriba</a>
         </section>
 
-        <section id="contacto">
+        <section id="contacto" class="aparicion">
             <h2>Contacto</h2>
             <form>
                 <label for="nombre">Nombre:</label>
@@ -102,7 +109,7 @@
         <p>&copy; 2023 Apoteotico. Todos los derechos reservados.</p>
     </footer>
 
-    <script src="animaciones.js"></script>
+
     <script src="index.js"></script>
 </body>
 
