@@ -101,6 +101,7 @@ section {
     max-width: 400px;
     height: auto;
     margin-bottom: 20px;
+    border-radius: 2px;
 }
 
 #proyectos h3 {
@@ -324,7 +325,7 @@ section {
         margin-right: 1rem;
     }
     .nav-list a {
-        color: #fff;
+        color: fff;
     }
     nav ul li a,
     .nav-list li a {
