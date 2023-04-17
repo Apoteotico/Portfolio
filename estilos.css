@@ -64,6 +64,7 @@ p.descripcion {
     color: #333;
     text-align: left;
     margin-bottom: 1em;
+    padding-right: 1rem;
 }
 
 figcaption {
