@@ -23,7 +23,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 10rem 1rem 10rem;
     background-color: #333;
 }
 
@@ -75,11 +75,11 @@ figcaption {
 /* Secciones */
 
 section {
-    padding: 50px;
+    padding: 1rem 10rem 1rem 10rem;
 }
 
 #inicio {
-    background-color: #eee;
+    background-color: #fff;
 }
 
 #sobre-mi {
@@ -134,7 +134,7 @@ section {
 }
 
 #contacto {
-    background-color: #f5f5f5;
+    background-color: #eee;
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -200,6 +200,10 @@ section {
 
 #contacto .redes-sociales a:hover {
     color: #333;
+}
+
+footer {
+    padding: 1rem 10rem 1rem 10rem;
 }
 
 
