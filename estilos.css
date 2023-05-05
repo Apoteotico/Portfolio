@@ -12,6 +12,7 @@ body {
 a {
     text-decoration: none;
     color: #333;
+    scroll-behavior: smooth;
 }
 
 h1,
